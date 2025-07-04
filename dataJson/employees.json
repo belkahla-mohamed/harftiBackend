@@ -1,0 +1,162 @@
+[
+    {
+        "fullname": "Mohamed Belkahla",
+        "username": "belkahla1",
+        "age": 20,
+        "service": ["Delivery Person"],
+        "phone": "+212645454545",
+        "email": "mohamed.belkahla@gmail.com",
+        "photo": "avatar (1).png",
+        "password": "aze@123",
+        "role": "employee"
+    },
+    {
+        "fullname": "Mouad Lamsila",
+        "username": "mouad2",
+        "age": 20,
+        "service": ["Delivery Person"],
+        "phone": "+212645454546",
+        "email": "mouad.lamsila@gmail.com",
+        "photo": "avatar (2).png",
+        "password": "aze@123",
+        "role": "employee"
+    },
+    {
+        "fullname": "Ali Hamza",
+        "username": "ali3",
+        "age": 28,
+        "service": ["Plumber"],
+        "phone": "+212645454547",
+        "email": "ali.hamza@gmail.com",
+        "photo": "avatar (3).png",
+        "password": "aze@123",
+        "role": "employee"
+    },
+    {
+        "fullname": "Karim Jilali",
+        "username": "karim4",
+        "age": 35,
+        "service": ["Plumber"],
+        "phone": "+212645454548",
+        "email": "karim.jilali@gmail.com",
+        "photo": "avatar (4).png",
+        "password": "aze@123",
+        "role": "employee"
+    },
+    {
+        "fullname": "Rachid Naim",
+        "username": "rachid5",
+        "age": 40,
+        "service": ["Painter"],
+        "phone": "+212645454549",
+        "email": "rachid.naim@gmail.com",
+        "photo": "avatar (5).png",
+        "password": "aze@123",
+        "role": "employee"
+    },
+    {
+        "fullname": "Samir El Amri",
+        "username": "samir6",
+        "age": 30,
+        "service": ["Painter"],
+        "phone": "+212645454550",
+        "email": "samir.elamri@gmail.com",
+        "photo": "avatar (6).png",
+        "password": "aze@123",
+        "role": "employee"
+    },
+    {
+        "fullname": "Hassan Idrissi",
+        "username": "hassan7",
+        "age": 33,
+        "service": ["Mechanic"],
+        "phone": "+212645454551",
+        "email": "hassan.idrissi@gmail.com",
+        "photo": "avatar (7).png",
+        "password": "aze@123",
+        "role": "employee"
+    },
+    {
+        "fullname": "Omar Khalid",
+        "username": "omar8",
+        "age": 29,
+        "service": ["Mechanic"],
+        "phone": "+212645454552",
+        "email": "omar.khalid@gmail.com",
+        "photo": "avatar (8).png",
+        "password": "aze@123",
+        "role": "employee"
+    },
+    {
+        "fullname": "Said Benali",
+        "username": "said9",
+        "age": 38,
+        "service": ["Carpenter"],
+        "phone": "+212645454553",
+        "email": "said.benali@gmail.com",
+        "photo": "avatar (9).png",
+        "password": "aze@123",
+        "role": "employee"
+    },
+    {
+        "fullname": "Fouad Amine",
+        "username": "fouad10",
+        "age": 25,
+        "service": ["Carpenter"],
+        "phone": "+212645454554",
+        "email": "fouad.amine@gmail.com",
+        "photo": "avatar (10).png",
+        "password": "aze@123",
+        "role": "employee"
+    },
+    {
+        "fullname": "Sara Amrani",
+        "username": "sara_admin",
+        "age": 30,
+        "phone": "+212612345678",
+        "email": "sara.amrani@admin.com",
+        "photo": "avatar (2).png",
+        "password": "Admin@456",
+        "role": "admin"
+    },
+    {
+        "fullname": "Yassine El Fadili",
+        "username": "yassine_admin",
+        "age": 35,
+        "phone": "+212698745632",
+        "email": "yassine.elfadili@admin.com",
+        "photo": "avatar (3).png",
+        "password": "SecurePass!789",
+        "role": "admin"
+    },
+    {
+        "fullname": "Nadia Bensalah",
+        "username": "nadia_admin",
+        "age": 28,
+        "phone": "+212678954321",
+        "email": "nadia.bensalah@admin.com",
+        "photo": "avatar (4).png",
+        "password": "StrongPass#2024",
+        "role": "admin"
+    },
+    {
+        "fullname": "Omar Chafiq",
+        "username": "omar_admin",
+        "age": 40,
+        "phone": "+212665478932",
+        "email": "omar.chafiq@admin.com",
+        "photo": "avatar (5).png",
+        "password": "OmarSecure!001",
+        "role": "admin"
+    },
+    {
+        "fullname": "Khadija Laouini",
+        "username": "khadija_admin",
+        "age": 32,
+        "phone": "+212655443322",
+        "email": "khadija.laouini@admin.com",
+        "photo": "avatar (6).png",
+        "password": "AdminPower@567",
+        "role": "admin"
+    }
+]
