@@ -36,6 +36,9 @@ app.use("/EmployeePhotos", express.static("EmployeePhotos"));
 app.use("/servicesPhotos", express.static("servicesPhotos"));
 app.use("/PostPhoto", express.static("PostPhoto"));
 
+app.get('/', (req, res) => {
+  res.send('✅ Node.js backend is running!');
+});
 // Start Server
 const PORT = process.env.PORT || 3001;
 app.listen(PORT, () => {
