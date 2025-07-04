@@ -16,7 +16,7 @@ const app = express();
 const server = http.createServer(app); // Create HTTP server
 const io = new Server(server, {
   cors: {
-    origin: "http://localhost:5173", // Change to your frontend URL
+    origin: "https://harftii.web.app", // Change to your frontend URL
     methods: ["GET", "POST"],
   },
 });
@@ -25,7 +25,7 @@ app.use(express.json());
 app.use(cors());
 
 // Connect to MongoDB
-mongoose.connect("mongodb://127.0.0.1:27017/Harfti")
+mongoose.connect("mongodb+srv://devmohamedbelkahla:uCMzWAlgTVWZGisi@cluster1.lrw6fh3.mongodb.net/harfti?retryWrites=true&w=majority&appName=Cluster1")
     .then(() => console.log("Connected to MongoDB"))
     .catch(err => console.error("MongoDB connection error:", err));
 
