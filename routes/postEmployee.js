@@ -33,7 +33,11 @@ router.post("/PostEmployee", upload.single("photo"), async (req, res) => {
     try {
         const formData = req.body;
         const file = req.file;
-        if (!formData.description) return res.send({ status: "error", message: "Description is required" })
+
+        console.log("📝 BODY:", formData);
+        console.log("📁 FILE:", file);
+
+        if (!formData.description) return res.send({ status: "error", message: "Description is required" });
         if (!file) return res.send({ status: "error", message: "Photo is required" });
 
         const newPost = new PostCollection({
@@ -44,7 +48,8 @@ router.post("/PostEmployee", upload.single("photo"), async (req, res) => {
         await newPost.save();
         res.send({ status: "success", message: "The Post has uploaded successfully." });
     } catch (err) {
-        res.status(500).send({ status: "error", message: "Error posting" });
+        console.log("❌ SERVER ERROR:", err);
+        res.status(500).send({ status: "error", message: err.message });
     }
 });
 
@@ -126,7 +131,7 @@ router.delete("/delete/:postId", async (req, res) => {
 router.get("/ProfileEmployee/:username", async (req, res) => {
     try {
         console.log(req.params.username)
-        const employee = await usersCollection.findOne({username : req.params.username});
+        const employee = await usersCollection.findOne({ username: req.params.username });
         if (employee) {
             res.send({ status: "success", message: "The employee founded successfully.", employee })
         } else {
