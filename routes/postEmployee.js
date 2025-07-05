@@ -34,7 +34,7 @@ router.post("/PostEmployee", upload.single("photo"), async (req, res) => {
         const formData = req.body;
         const file = req.file;
         if (!formData.description) return res.send({ status: "error", message: "Description is required" })
-        if (!file) return res.send({ status: "error", message: "Photo is required" });
+       
 
         const newPost = new PostCollection({
             ...formData,
