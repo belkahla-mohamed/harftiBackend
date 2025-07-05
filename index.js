@@ -55,7 +55,7 @@ app.use("/uploads", express.static("uploads"));
 app.use("/reservationImgs", express.static("reservationImgs"));
 app.use("/EmployeePhotos", express.static("EmployeePhotos"));
 app.use("/servicesPhotos", express.static("servicesPhotos"));
-app.use("/PostPhoto", express.static("PostPhoto"));
+app.use("/Videos", express.static("Videos"));
 
 // Test route
 app.get('/', (req, res) => {

@@ -20,7 +20,7 @@ router.get('/PostEmployee', async (req, res) => {
 // Upload Image/Video
 const storage = multer.diskStorage({
     destination: (req, file, cb) => {
-        cb(null, "PostPhoto/");
+        cb(null, "Videos/");
     },
     filename: (req, file, cb) => {
         cb(null, Date.now() + path.extname(file.originalname));
