@@ -38,7 +38,7 @@ router.post("/PostEmployee", upload.single("photo"), async (req, res) => {
 
         const newPost = new PostCollection({
             ...formData,
-            photo: file.filename
+           
         });
 
         await newPost.save();
