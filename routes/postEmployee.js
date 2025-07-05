@@ -33,11 +33,7 @@ router.post("/PostEmployee", upload.single("photo"), async (req, res) => {
     try {
         const formData = req.body;
         const file = req.file;
-
-        console.log("📝 BODY:", formData);
-        console.log("📁 FILE:", file);
-
-        if (!formData.description) return res.send({ status: "error", message: "Description is required" });
+        if (!formData.description) return res.send({ status: "error", message: "Description is required" })
         if (!file) return res.send({ status: "error", message: "Photo is required" });
 
         const newPost = new PostCollection({
@@ -48,8 +44,8 @@ router.post("/PostEmployee", upload.single("photo"), async (req, res) => {
         await newPost.save();
         res.send({ status: "success", message: "The Post has uploaded successfully." });
     } catch (err) {
-        console.log("❌ SERVER ERROR:", err);
-        res.status(500).send({ status: "error", message: err.message });
+        console.log("❌ SERVER ERROR:", err); // باش تشوف شنو السبب
+        res.status(500).send({ status: "error", message: err.message }); // طبع رسالة الخطأ الحقيقية
     }
 });
 
